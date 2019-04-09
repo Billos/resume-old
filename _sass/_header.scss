@@ -1,0 +1,18 @@
+header {
+	position: relative;
+	padding: 10px;
+	height: 200px;
+	background-color: $primary-color;
+	display: flex;
+	flex-direction: row;
+	div#profile{
+		img {
+			height: 100%;
+			border-radius: 50%;
+		}
+	}
+	div#content {
+		flex-grow: auto;
+		background-color: red;
+	}
+}

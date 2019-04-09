@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-	{{ content }}
+{% include head.html %}
+
+<body>
+	{% include header.html %}
+	<main>
+		{% include column.html %}
+		{% include content.html %}
+	</main>
+</body>
+
 </html>
