@@ -12,7 +12,7 @@ services:
     image: jekyll/builder
     command: jekyll serve --livereload --watch --force_polling
     volumes:
-      - ./site:/srv/jekyll:rw
+      - ./:/srv/jekyll:rw
     ports:
       - "4000:4000"
       - "35729:35729"
