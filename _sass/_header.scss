@@ -1,0 +1,29 @@
+header {
+	// Position
+	position: relative;
+	height: 200px;
+
+	// Colors
+	background-color: $primary-color;
+
+	// Flex
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+	div#profile{
+		height: 100%;
+		width: $column-width;
+		padding: 10px;
+		img {
+			height: 100%;
+			width: 100%;
+			border-radius: 50%;
+		}
+	}
+	div#content {
+		flex-grow: 1;
+		background-color: red;
+	}
+}
