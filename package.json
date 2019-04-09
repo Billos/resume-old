@@ -1,0 +1,14 @@
+{
+  "name": "resume",
+  "version": "0.0.0",
+  "description": "resume",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Billos/resume.git"
+  },
+  "author": "bgoubin",
+  "bugs": {
+    "url": "https://github.com/Billos/resume/issues"
+  },
+  "homepage": "https://github.com/Billos/resume#readme"
+}
