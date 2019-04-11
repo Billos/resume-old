@@ -36,3 +36,32 @@ main {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+@page {
+    size: A4;
+    margin: 0;
+    padding: 0;
+}
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+    body{
+        background: none;
+    }
+    #page {
+        margin: 0;
+        zoom: initial;
+        border: 10px solid;
+        border-image: linear-gradient(to bottom, #3b3a3f, #3b3a3f) 10;
+        page-break-after: always;
+        transform: scale(1);
+        height: 100%;
+        width: 100%;
+    }
+    #pdf_link{
+        display: none;
+    }
+}
