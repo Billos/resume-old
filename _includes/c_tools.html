@@ -9,7 +9,7 @@
 		{% for item in site.data.tools %}
 		<div class="line">
 			<b>{{item.name}}</b>
-			<span>{{item.level}}</span>
+			{% include rating.html %}
 		</div>
 		{% endfor %}
 	</div>
