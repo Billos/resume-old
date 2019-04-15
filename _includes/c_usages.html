@@ -1,0 +1,16 @@
+<section>
+	<div class="title">
+		<div class="logo">
+			<i class="material-icons">thumb_up</i>
+		</div>
+		<div class="text">Pratiques</div>
+	</div>
+	<div class="content">
+		{% for item in site.data.usages %}
+		<div class="line">
+			<b>{{item.name}}</b>
+			{% include rating.html %}
+		</div>
+		{% endfor %}
+	</div>
+</section>

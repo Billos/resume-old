@@ -1,0 +1,16 @@
+<section>
+	<div class="title">
+		<div class="logo">
+			<i class="material-icons">developer_mode</i>
+		</div>
+		<div class="text">Languages</div>
+	</div>
+	<div class="content">
+		{% for item in site.data.dev %}
+		<div class="line">
+			<b>{{item.name}}</b>
+			{% include rating.html %}
+		</div>
+		{% endfor %}
+	</div>
+</section>

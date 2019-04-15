@@ -1,0 +1,7 @@
+<span>
+{% for i in (1..5) %}
+		<i class="tiny material-icons">
+			{% if i <= item.level %}star{% else %}star_border{% endif %}
+		</i>
+{% endfor %}
+</span>
