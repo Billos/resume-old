@@ -1,0 +1,13 @@
+<section>
+	<div class="title">
+		<div class="logo">
+			<i class="material-icons">favorite</i>
+		</div>
+		<div class="text">Loisirs</div>
+	</div>
+	<div class="content">
+		{% for item in site.data.hobbies %}
+			<b>{{item}}<b/><br />
+		{% endfor %}
+	</div>
+</section>
