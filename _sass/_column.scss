@@ -6,6 +6,9 @@ column {
 	height: 100%;
 	width: $column-width;
 	padding: $padding;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 
 	section {
 		div.title {
