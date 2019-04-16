@@ -1,15 +1,15 @@
 <section>
 	<div class="title">
 		<div class="logo">
-			<i class="material-icons">build</i>
+			<i class="material-icons">person</i>
 		</div>
-		<div class="text">Outils</div>
+		<div class="text">Informations</div>
 	</div>
 	<div class="content">
-		{% for item in site.data.tools %}
+		{% for item in site.data.personal %}
 		<div class="line">
+			<i class="tiny material-icons">{{item.icon}}</i>
 			<b>{{item.name}}</b>
-			{% include rating.html %}
 		</div>
 		{% endfor %}
 	</div>
