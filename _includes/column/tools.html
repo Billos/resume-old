@@ -5,11 +5,10 @@
 		</div>
 		<div class="text">Outils</div>
 	</div>
-	<div class="content">
+	<div class="words">
 		{% for item in site.data.tools %}
-		<div class="line">
+		<div class="word">
 			<b>{{item.name}}</b>
-			{% include rating.html %}
 		</div>
 		{% endfor %}
 	</div>
