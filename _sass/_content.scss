@@ -1,3 +1,5 @@
+$logo-size: 60px;
+
 content {
 	display: flex;
 	flex-grow: 1;
@@ -5,5 +7,30 @@ content {
 
 	div#experiences {
 		padding: $padding;
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		section {
+			div.title {
+				font-size: 26px;
+				margin-left: 10px;
+				margin-right: 10px;
+				height: 50px;
+				padding-right: 10px;
+				background-color: $primary-color;
+
+
+				div.logo {
+					margin-left: 20px;
+					width: $logo-size;
+					height: $logo-size;
+					background: white;
+					i {
+						font-size: 40px;
+					}
+				}
+			}
+		}
 	}
 }
