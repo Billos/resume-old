@@ -45,7 +45,22 @@ column {
 			}
 		}
 
-		div.content {
+		div.words {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			div.word {
+				width: 50%;
+			}
+			div.word:nth-child(even) {
+				text-align: right;
+			}
+			div.word:nth-child(odd) {
+				text-align: left;
+			}
+		}
+
+		div.content, div.words {
 			margin-top: 10px;
 			margin-bottom: 10px;
 			font-size: 12px;
