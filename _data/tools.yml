@@ -1,18 +1,6 @@
--
-  name: Git
-  level: 4
--
-  name: Websocket
-  level: 4
--
-  name: MQTT
-  level: 3
--
-  name: MongoDB
-  level: 4
--
-  name: Linux
-  level: 4
--
-  name: Docker
-  level: 4
+- Git
+- Websocket
+- MQTT
+- MongoDB
+- Linux
+- Docker
