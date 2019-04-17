@@ -1,4 +1,3 @@
-$header-degree: -30deg;
 $logo-size: 40px;
 
 column {
@@ -17,31 +16,12 @@ column {
 			height: 30px;
 			padding-right: 10px;
 			background-color: $primary-color;
-			-webkit-transform: skew($header-degree);
-			-moz-transform: skew($header-degree);
-			-o-transform: skew($header-degree);
 
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-
-			div.text, div.logo{
-				font-weight: bold;
-				-webkit-transform: skew(-$header-degree);
-				-moz-transform: skew(-$header-degree);
-				-o-transform: skew(-$header-degree);
-			}
 			div.logo {
 				margin-left: 20px;
 				width: $logo-size;
 				height: $logo-size;
 				background: $primary-color-light;
-				border-radius: 50%;
-				display: flex;
-				flex-direction: row;
-				align-items: center;
-				justify-content: center;
 			}
 		}
 
