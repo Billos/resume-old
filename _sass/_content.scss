@@ -30,6 +30,54 @@ content {
 					}
 				}
 			}
+
+			degree {
+				display: flex;
+				flex-direction: column;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				first, second {
+					display: flex;
+					justify-content: space-around;
+				}
+				years {
+					font-weight: bold;
+					font-size: 10px;
+					width: 10%;
+				}
+				diploma {
+					font-weight: bold;
+					font-size: 15px;
+					flex-grow: 1;
+				}
+				school {
+					font-size: 12px;
+					font-weight: bold;
+					margin-right: 5px;
+				}
+				place {
+					width: 14%;
+					font-size: 10px;
+					color: $secondary-text-color;
+				}
+				content {
+					flex-grow: 1;
+					name {
+						font-size: 15px;
+						font-weight: bold;
+						color: $primary-color-dark;
+					}
+					specialty {
+						font-size: 12px;
+						font-weight: bold;
+						color: $primary-color;
+					}
+					teachings {
+						font-size: 12px;
+						color: $secondary-text-color;
+					}
+				}
+			}
 		}
 	}
 }
