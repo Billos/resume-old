@@ -1,29 +1,12 @@
 header {
-	// Position
-	position: relative;
-	height: 200px;
-
-	// Colors
+	width: 100%;
 	background-color: $primary-color;
-
-	// Flex
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
+	padding: $padding;
 
-
-	div#profile{
-		height: 100%;
-		width: 22%;
-		padding: 10px;
-		img {
-			height: 100%;
-			width: 100%;
-			border-radius: 50%;
-		}
-	}
-	div#content {
-		flex-grow: 1;
-		padding: $padding;
+	h1, h2 {
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 }
