@@ -1,4 +1,3 @@
-$header-degree: -30deg;
 $logo-size: 40px;
 
 column {
@@ -17,35 +16,31 @@ column {
 			height: 30px;
 			padding-right: 10px;
 			background-color: $primary-color;
-			-webkit-transform: skew($header-degree);
-			-moz-transform: skew($header-degree);
-			-o-transform: skew($header-degree);
 
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-
-			div.text, div.logo{
-				font-weight: bold;
-				-webkit-transform: skew(-$header-degree);
-				-moz-transform: skew(-$header-degree);
-				-o-transform: skew(-$header-degree);
-			}
 			div.logo {
 				margin-left: 20px;
 				width: $logo-size;
 				height: $logo-size;
 				background: $primary-color-light;
-				border-radius: 50%;
-				display: flex;
-				flex-direction: row;
-				align-items: center;
-				justify-content: center;
 			}
 		}
 
-		div.content {
+		div.words {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			div.word {
+				width: 50%;
+			}
+			div.word:nth-child(even) {
+				text-align: right;
+			}
+			div.word:nth-child(odd) {
+				text-align: left;
+			}
+		}
+
+		div.content, div.words {
 			margin-top: 10px;
 			margin-bottom: 10px;
 			font-size: 12px;
@@ -57,5 +52,14 @@ column {
 				}
 			}
 		}
+	}
+}
+
+div#profile{
+	width: 100%;
+	img {
+		height: 100%;
+		width: 100%;
+		border-radius: 50%;
 	}
 }
