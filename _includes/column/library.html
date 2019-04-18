@@ -6,7 +6,8 @@
 		<div class="text">Frameworks</div>
 	</div>
 	<div class="content">
-		{% for item in site.data.libraries %}
+		{% assign items = site.data.libraries | sort: 'level' | reverse %}
+		{% for item in items %}
 		<div class="line">
 			<b>{{item.name}}</b>
 			{% include rating.html %}
