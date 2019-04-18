@@ -55,6 +55,9 @@ column {
 			div.line {
 				display: flex;
 				justify-content: space-between;
+				a {
+					color: black;
+				}
 				span{
 					font-weight: normal;
 				}

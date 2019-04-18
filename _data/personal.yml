@@ -1,6 +1,7 @@
 -
   name: b.goubin.56@gmail.com
   icon: email
+  clickable: true
 -
   name: 06 49 53 30 12
   icon: phone

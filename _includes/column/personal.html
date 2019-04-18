@@ -9,7 +9,14 @@
 		{% for item in site.data.personal %}
 		<div class="line">
 			<i class="tiny material-icons">{{item.icon}}</i>
-			<b>{{item.name}}</b>
+			<b>
+				{% if item.clickable %}
+				<a href="mailto:{{item.name}}">{{item.name}}</a>
+				{% else %}
+				{{item.name}}
+				{% endif %}
+			</b>
+
 		</div>
 		{% endfor %}
 	</div>
