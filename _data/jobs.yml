@@ -14,7 +14,7 @@
   tasks:
     - Développements pour le produit Mediascreen
     - Développement de l'application de maintenance et supervision des systèmes en production
-    - Responsable des interconnexion
+    - Responsable des interconnexions
     - Développements et conception de la V2 pour le produit HospiMonitor
     - Développements pour le produit SmartBed
   technologies: Node.js - ExpressJS - MongoDB - Polymer - MQTT - Git - Websocket - Docker
@@ -26,7 +26,7 @@
   contract: Stage - Thèse de Master
   tasks:
     - Développement d'un éditeur de carte collaboratif
-    - "Thèse : Collaborative indoor mapping in a spatial data manageement context"
+    - "Thèse : Collaborative indoor mapping in a spatial data management context"
   technologies: Node.js - AngularJS - PaperJS - PostgreSQL - Sequelize - TogetherJS
   place: Finlande
   years: 2015
