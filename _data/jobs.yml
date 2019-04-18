@@ -1,9 +1,42 @@
 -
-  function:
-  company:
-  condition:
+  function: Développeur Web
+  company: Oxxeo
+  contract: CDI
   tasks:
-    -
-  technologies:
-  place:
-  years:
+    - Développement d'une application de mise en relation patient / staff médical / proches en services hospitaliers
+  technologies: Angular 7 - Ionic 4
+  place: France
+  years: 2019
+-
+  function: Développeur Web
+  company: Hoppen (Télécom Santé)
+  contract: CDI
+  tasks:
+    - Développements pour le produit Mediascreen
+    - Développement de l'application de maintenance et supervision des systèmes en production
+    - Responsable des interconnexion
+    - Développements et conception de la V2 pour le produit HospiMonitor
+    - Développements pour le produit SmartBed
+  technologies: Node.js - ExpressJS - MongoDB - Polymer - MQTT - Git - Websocket - Docker
+  place: France
+  years: 2015-2019
+-
+  function: Développeur
+  company: Steerpath (Nimble Devices Oy)
+  contract: Stage - Thèse de Master
+  tasks:
+    - Développement d'un éditeur de carte collaboratif
+    - "Thèse : Collaborative indoor mapping in a spatial data manageement context"
+  technologies: Node.js - AngularJS - PaperJS - PostgreSQL - Sequelize - TogetherJS
+  place: Finlande
+  years: 2015
+-
+  function: Développeur
+  company: RetailMeNot France (Miwim)
+  contract: Stage - CDD
+  tasks:
+    - Développement d'un service web pour le site partenaires.retailmenot.fr
+    - Développement d'une application Android pour le site bons-de-reduction.com
+  technologies: Apache - PHP - MySQL - Javascript - Eclipse - Java Android SDK - OAuth - SQLite - SVN
+  place: Finlande
+  years: 2015
