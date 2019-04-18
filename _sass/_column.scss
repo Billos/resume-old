@@ -40,6 +40,14 @@ column {
 			}
 		}
 
+		div.content.left {
+			div.line {
+				justify-content: start;
+				* {
+					margin-right: 10px;
+				}
+			}
+		}
 		div.content, div.words {
 			margin-top: 10px;
 			margin-bottom: 10px;
