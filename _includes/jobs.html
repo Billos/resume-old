@@ -5,4 +5,27 @@
 		</div>
 		<div class="text">Experiences professionnelles</div>
 	</div>
+	{% for item in site.data.jobs %}
+	<job>
+		<first>
+			<years>{{item.years}}</years>
+			<company>{{item.company}}</company>
+			<contract>{{item.contract}}</contract>
+			<place>{{item.place}}</place>
+		</first>
+		<second>
+			<years></years>
+			<content>
+				<function>{{item.function}}</function>
+				{% for task in item.tasks %}
+				<task>{{task}}</task>
+				{% endfor %}
+				<technologies>{{item.technologies}}</technologies>
+			</content>
+		</second>
+	</job>
+	{% if item != site.data.jobs.last %}
+	<hr>
+	{% endif %}
+	{% endfor %}
 </section>
