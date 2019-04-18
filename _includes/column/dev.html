@@ -6,7 +6,8 @@
 		<div class="text">Languages</div>
 	</div>
 	<div class="content">
-		{% for item in site.data.dev %}
+		{% assign items = site.data.dev | sort: 'level' | reverse %}
+		{% for item in items %}
 		<div class="line">
 			<b>{{item.name}}</b>
 			{% include rating.html %}
