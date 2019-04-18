@@ -1,0 +1,36 @@
+<section>
+	<div class="title skew">
+		<div class="logo">
+			<i class="material-icons">school</i>
+		</div>
+		<div class="text">Formations et diplômes</div>
+	</div>
+	{% for item in site.data.degrees %}
+	<degree>
+		<first>
+			<years>{{item.years}}</years>
+			<diploma>{{item.diploma}}</diploma>
+			<school>{{item.school}}</school>
+			<place>{{item.place}}</place>
+		</first>
+		<second>
+			<years></years>
+			<content>
+				<name>{{item.title}}</name>
+				<specialty>
+					{% if item.specialty%}
+					Specialité {{item.specialty}}
+					{% endif %}
+				</specialty>
+				<teachings>
+					{{item.teachings}}
+				</teachings>
+			</content>
+			<place></place>
+		</second>
+	</degree>
+	{% if item != site.data.degrees.last %}
+	<hr />
+	{% endif %}
+	{% endfor %}
+</section>
