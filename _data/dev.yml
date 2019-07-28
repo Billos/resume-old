@@ -6,10 +6,10 @@
   level: 5
 -
   name: Typescript
-  level: 2
--
-  name: SQL
   level: 3
+# -
+#   name: SQL
+#   level: 3
 -
   name: HTML - CSS
   level: 3

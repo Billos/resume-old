@@ -1,3 +1,13 @@
+
+-
+  function: Développeur Web
+  company: Doctoconsult
+  contract: CDI
+  tasks:
+    - Développements pour l'application de soutien psychologique Mon Sherpa
+  technologies: Typescript - GraphQL - React - React Native - Microsoft Bot Builder
+  place: France
+  years: Depuis 2019
 -
   function: Développeur Web
   company: Oxxeo
@@ -39,4 +49,4 @@
     - Développement d'une application Android pour le site bons-de-reduction.com
   technologies: Apache - PHP - MySQL - Javascript - Eclipse - Java Android SDK - OAuth - SQLite - SVN
   place: Finlande
-  years: 2015
+  years: 2012
