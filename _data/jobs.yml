@@ -1,11 +1,11 @@
 
 -
   function: Développeur Web
-  company: Doctopsy (Doctoconsult)
+  company: Qare (Doctopsy)
   contract: CDI
   tasks:
     - Développements pour l'application de soutien psychologique Mon Sherpa
-  technologies: Typescript - GraphQL - React - React Native - Microsoft Bot Builder
+  technologies: Typescript - GraphQL - Microsoft BotFramework
   place: France
   years: Depuis 2019
 -
