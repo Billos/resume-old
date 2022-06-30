@@ -1,15 +1,9 @@
 -
-  name: REST
+  name: Générisation
   level: 5
 -
-  name: Microservices
+  name: Architecture
   level: 4
 -
-  name: UML
-  level: 3
--
-  name: TDD
-  level: 2
--
-  name: OOP
-  level: 3
+  name: Pragmatisme
+  level: 4

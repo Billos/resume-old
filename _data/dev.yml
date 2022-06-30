@@ -1,15 +1,9 @@
 -
-  name: Node.js
+  name: Node / Typescript
   level: 5
 -
-  name: Javascript
-  level: 5
+  name: MongoDB
+  level: 4
 -
-  name: Typescript
-  level: 3
-# -
-#   name: SQL
-#   level: 3
--
-  name: HTML - CSS
-  level: 3
+  name: Shell
+  level: 2

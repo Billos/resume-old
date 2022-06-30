@@ -1,15 +1,9 @@
 -
-  name: Polymer 1 - 2
+  name: BotFramework
+  level: 5
+-
+  name: GraphQL
   level: 4
 -
-  name: Angular 7
-  level: 2
--
-  name: Ionic 4
-  level: 2
--
-  name: React
-  level: 2
--
-  name: ExpressJS
-  level: 5
+  name: Sanity CMS
+  level: 4
