@@ -5,5 +5,14 @@
   name: GraphQL
   level: 4
 -
+  name: Nunjucks
+  level: 4
+-
   name: Sanity CMS
   level: 4
+-
+  name: ExpressJS
+  level: 3
+-
+  name: Mongoose
+  level: 3

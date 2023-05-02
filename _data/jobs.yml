@@ -1,21 +1,21 @@
 
 -
-  function: Développeur Web
+  function: Développeur Backend
   company: HealthHero - Qare (Doctopsy)
   contract: CDI
   tasks:
-    - Développements d'un chatbot pour les applications MonSherpa et Symbio
+    - Développement d'un chatbot pour les applications MonSherpa et Symbio
     - Gestion du système de contenu pour les applications MonSherpa et Symbio
   technologies: Typescript - GraphQL - Microsoft BotFramework - Sanity
   place: France
   years: Depuis 2019
 -
-  function: Développeur Web
+  function: Développeur d'application
   company: Hoppen (Télécom Santé)
   contract: CDI
   tasks:
     - Développement de l'application de maintenance et supervision des systèmes en production
-    - Responsable des interconnexions
+    - Responsable des interconnexions aux systèmes de gestion de données patients
     - Développements et conception de la V2 pour les produits Mediascreen, HospiMonitor et SmartBed
   technologies: Node.js - ExpressJS - MongoDB - Polymer - MQTT - Git - Websocket - Docker
   place: France
