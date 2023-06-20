@@ -1,4 +1,12 @@
 -
+  diploma: Certificat de qualification professionnelle
+  title: Technicien process brassicole
+  specialty:
+  teachings:
+  school: La Beer Fabrique
+  place: France
+  years: 2023
+-
   diploma: Master 2 (EIT Digital)
   title: Cloud Computing and Services
   specialty: Services mobiles - Innovation et entreprenariat
@@ -30,11 +38,11 @@
   school: Université Bretagne Sud
   place: France
   years: 2010-2012
--
-  diploma: Baccalauréat
-  title: Scientifique
-  specialty: Physique Chimie
-  teachings:
-  school: Lycée Bréquigny
-  place: France
-  years: 2009
+# -
+#   diploma: Baccalauréat
+#   title: Scientifique
+#   specialty: Physique Chimie
+#   teachings:
+#   school: Lycée Bréquigny
+#   place: France
+#   years: 2009
